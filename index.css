@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,800&family=Seymour+One&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Seymour One', sans-serif;
+}
+
+
+nav {
+    background: #84A278;
+}
+
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.list_item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FCFCFC;
+}
+
+.btn1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #131313;
+    padding: 12px 30px;
+    background: #F8D24E;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 28px;
+    margin-left: 180px;
+
+}
+
+header {
+    background: #84A278;
+    padding-top: 50px;
+}
+
+.ice {
+    font-family: 'Seymour One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FCFCFC;
+}
+
+.one {
+    margin-top: 28px;
+}
+
+.btn2 {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #131313;
+    padding: 12px 30px;
+    border: 2px solid #F8D24E;
+    border-radius: 10px;
+}
+
+.one b {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #F8D24E;
+    margin-left: 34px;
+}
+
+.two {
+    margin-top: 42px;
+    display: flex;
+}
+
+.two p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FCFCFC;
+    margin-left: 30px;
+    margin-top: 58px;
+}
+
+.three {
+    display: flex;
+}
+
+.bir h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    /* text-align: right; */
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #131313;
+}
+
+.bir p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FCFCFC;
+
+}
+
+.maroj {
+    margin-left: -40px;
+}
+
+section {
+    background: url(./img/bac-ice.png);
+    padding-bottom: 66px;
+}
+
+.natur {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #131313;
+    margin-top: 60px;
+}
+
+.prodac {
+    font-family: 'Seymour One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #131313;
+    margin-top: 12px;
+}
+
+
+.card {
+    padding: 166px 62px 60px 62px;
+    width: 370px;
+    background: #AEC6A5;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+}
+
+.card1 {
+    padding: 166px 62px 46px 62px;
+    width: 370px;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    background: #EFD478;
+    border-radius: 24px;
+}
+
+.card2 {
+    padding: 166px 62px 46px 62px;
+    width: 370px;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    background: #D6936D;
+    border-radius: 24px;
+}
+
+
+.card h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #131313;
+}
+
+.card1 h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #131313;
+}
+
+.card2 h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #131313;
+}
+
+.card p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #131313;
+    margin-top: 65px;
+}
+
+.card1 p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #131313;
+    margin-top: 65px;
+}
+
+.card2 p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #131313;
+    margin-top: 65px;
+}
+
+.chiz {
+    width: 100px;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.ices {
+    margin-left: 34px;
+    padding-top: 35px;
+}
+
+.ikki {
+    background: #84A178;
+}
+
+.tradition {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FCFCFC;
+    margin-top: 60px;
+}
+
+.made {
+    font-family: 'Seymour One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FCFCFC;
+    margin-top: 12px;
+}
+
+.plas{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+letter-spacing: 0.04em;
+color: #FCFCFC;
+margin-top: 150px;
+}
